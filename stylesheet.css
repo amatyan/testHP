@@ -1,17 +1,52 @@
 header{
-  background-color:green;
+  background-color:pink;
 
 }
 
 header h1{
   text-align: center;
-  color: white;
+  color: black;
 }
 
 header p{
   color:white;
-  padding-left: 40px;
 }
+
+.menu-icon{
+  margin: 20px 20px 20px 20px;
+  position:absolute;
+  top:20px;
+  right:20px;
+  opacity: 0.8;
+}
+
+.clear{
+  clear:right;
+}
+
+.img-icon{
+  width:50px;
+  height:50px;
+}
+
+.btn:hover{
+  opacity: 1;
+}
+
+#menu-modal{
+  background-color: #66CC99;
+  width:25%;
+  text-align: center;
+  border-radius: 20px;
+
+  margin: 0 5px 0px 0px;
+  position:absolute;
+  top:20px;
+  right:20px;
+
+  display:none;
+}
+
 
 footer{
   background-color: green;
@@ -20,7 +55,4 @@ footer{
 .twitter-timeline{
   margin-right: 5%;
   float:right;
-}
-.clear{
-  clear:right;
 }
