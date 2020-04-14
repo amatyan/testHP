@@ -1,0 +1,26 @@
+header{
+  background-color:green;
+
+}
+
+header h1{
+  text-align: center;
+  color: white;
+}
+
+header p{
+  color:white;
+  padding-left: 40px;
+}
+
+footer{
+  background-color: green;
+}
+
+.twitter-timeline{
+  margin-right: 5%;
+  float:right;
+}
+.clear{
+  clear:right;
+}
